@@ -1,0 +1,33 @@
+.idea/tasks.xml
+.idea/workspace.xml
+.idea/uiDesigner.xml
+.NET/**/packages/
+.NET/**/obj/
+.NET/**/bin/
+.NET/**/*.suo
+.NET/**/Properties/launchSettings.json
+.vs/
+src/whiteSeedProxy/*.class
+test-output/
+bin/
+*.user
+*.log
+!*.exe
+build/
+WebServiceCall/**/obj/
+Config.txt
+
+# Ivy library directory when running Ant
+libs2/
+
+# Ignores for JetBrains Rider
+# Source: https://rider-support.jetbrains.com/hc/en-us/articles/207097529-What-is-the-idea-folder-
+.NET/**/.idea/**/contentModel.xml
+.NET/**/.idea/**/modules.xml
+.NET/**/.idea/**/workspace.xml*
+.NET/**/.idea/**/riderModule.iml
+
+# Maven ignores
+target/
+
+testng.xml
