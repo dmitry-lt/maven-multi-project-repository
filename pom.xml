@@ -9,7 +9,6 @@
     <version>2.0-SNAPSHOT</version>
     <modules>
         <module>daf</module>
-        <module>config-service</module>
         <module>imagerps</module>
         <module>marketing-solutions</module>
         <module>payroll-us</module>
