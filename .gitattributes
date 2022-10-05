@@ -1,0 +1,13 @@
+###############################################################################
+# Set default behavior to automatically normalize line endings.
+###############################################################################
+* text=auto
+
+###############################################################################
+# File types that IDEs like to create as LF-only. Telling Git to treat these as
+# "text eol=lf" prevents line-ending warnings when you stage these files (and
+# keeps the files as LF-only when you check out).
+###############################################################################
+.idea/*.xml text eol=lf
+*.iml text eol=lf
+*.DotSettings text eol=lf
